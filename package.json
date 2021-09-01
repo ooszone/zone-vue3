@@ -1,0 +1,36 @@
+{
+	"name": "zone-vue3",
+	"version": "1.0.0",
+	"description": "vue3脚手架",
+	"main": "index.js",
+	"repository": "https://github.com/ooszone/zone-vue3.git",
+	"author": "zone <oospace@foxmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.5",
+		"@babel/plugin-proposal-optional-chaining": "^7.14.5",
+		"ace-builds": "^1.4.12",
+		"axios": "^0.21.1",
+		"element-plus": "^1.1.0-beta.7",
+		"global": "^4.4.0",
+		"js-beautify": "^1.14.0",
+		"less": "^4.1.1",
+		"localforage": "^1.10.0",
+		"path": "^0.12.7",
+		"require": "^2.4.20",
+		"requirejs": "^2.3.6",
+		"vue": "^3.2.6",
+		"vue-router": "4",
+		"vuex": "4"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.6.0",
+		"@vue/compiler-sfc": "^3.0.5",
+		"vite": "^2.5.1"
+	}
+}

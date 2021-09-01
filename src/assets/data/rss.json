@@ -1,0 +1,24 @@
+{
+  "siteList": [
+    {
+      "name": "互联网一些事",
+      "feedUrl": "http://www.yixieshi.com/feed",
+      "articleList": []
+    },
+    {
+      "name": "36氪",
+      "feedUrl": "http://36kr.com/feed",
+      "articleList": []
+    },
+    {
+      "name": "知乎",
+      "feedUrl": "https://www.zhihu.com/rss",
+      "articleList": []
+    },
+    {
+      "name": "湾区日报",
+      "feedUrl": "https://wanqu.co/feed/",
+      "articleList": []
+    }
+  ]
+}

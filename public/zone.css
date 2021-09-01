@@ -1,0 +1,159 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #f9f9f9;
+    display: -webkit-flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.flex, .flexW {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: relative;
+}
+
+.flex, .flexH, .flexW {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-box-direction: normal;
+    position: relative;
+}
+
+.flexH {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+.flex1 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex: 1;
+    position: relative;
+}
+
+.flex2 {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    -webkit-flex: 2;
+    position: relative;
+}
+
+.flex3 {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    -webkit-flex: 3;
+    position: relative;
+}
+
+.flex4 {
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    -webkit-flex: 4;
+    position: relative;
+}
+
+.flex5 {
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    -webkit-flex: 5;
+    position: relative;
+}
+
+.flex6 {
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    -webkit-flex: 6;
+    position: relative;
+}
+
+.flex99 {
+    -webkit-box-flex: 99;
+    -ms-flex: 99;
+    flex: 99;
+    -webkit-flex: 99;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*自定义滚动条样式start*/
+
+*::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    /*display: none;*/
+}
+
+*:hover::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    display: block;
+}
+
+/*— 整个滚动条.*/
+
+*::-webkit-scrollbar-button {
+    width: 3px;
+    height: 3px;
+    background: rgba(220, 220, 220, 0.5);
+}
+
+/*— 滚动条上的按钮 (上下箭头).*/
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+    40% 0%,
+    75% 84%,
+    from(rgba(5, 4, 28, 0.25)),
+    to(rgba(5, 4, 28, 0.25)),
+    color-stop(.6, rgba(5, 4, 28, 0.25)));
+}
+
+/*— 滚动条上的滚动滑块.*/
+
+*::-webkit-scrollbar-track {
+    width: 3px;
+    background: #f5f5f5;
+}
+
+/*— 滚动条轨道.*/
+
+*::-webkit-scrollbar-track-piece {
+    width: 3px;
+}
+
+/*— 滚动条没有滑块的轨道部分.*/
+
+*::-webkit-scrollbar-corner {
+
+}
+
+/*— 当同时有垂直滚动条和水平滚动条时交汇的部分.*/
+
+*::-webkit-resizer {
+
+}
+
+/*— 某些元素的corner部分的部分样式(例:textarea的可拖动按钮).*/
