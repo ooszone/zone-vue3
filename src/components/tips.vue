@@ -5,10 +5,12 @@
 </template>
 
 <script>
-  export default {
+  import {defineComponent} from "vue";
+
+  export default defineComponent({
     props:['tips'],
     name: 'tips'
-  }
+  })
 </script>
 
 <style scoped lang="less">

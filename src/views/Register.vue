@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import Tips from '../components/tips'
+  import Tips from '../components/tips.vue'
 
   export default {
     name: 'Register',

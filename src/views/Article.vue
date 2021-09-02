@@ -57,8 +57,8 @@
 </template>
 
 <script>
-  import Menus from '../components/menus'
-  import Tips from '../components/tips'
+  import Menus from '../components/menus.vue'
+  import Tips from '../components/tips.vue'
   export default {
     name: 'Article',
     components: { Menus, Tips },

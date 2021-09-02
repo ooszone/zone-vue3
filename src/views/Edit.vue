@@ -53,7 +53,7 @@
                 <textarea class="edit-content flex1" style="border-right:0" v-model="post.post"
                           placeholder="..."></textarea>
                 <div class="edit-content flex1" v-html="markdownHtml">
-                    ...
+                
                 </div>
             </div>
 
@@ -63,8 +63,8 @@
 </template>
 
 <script>
-  import Tips from '../components/tips'
-  import Menus from '../components/menus'
+  import Tips from '../components/tips.vue'
+  import Menus from '../components/menus.vue'
   export default {
     name: 'Edit',
     components: { Menus, Tips },
