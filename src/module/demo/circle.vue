@@ -14,24 +14,30 @@
         </section>
         <section class="load-container">
             <circle-load-progress >
-                <circle-single slot="right"></circle-single>
-                <circle-single slot="left"></circle-single>
+	            <template v-slot:right>
+		            <circle-single ></circle-single>
+	            </template>
+	            <template v-slot:left>
+		            <circle-single ></circle-single>
+	            </template>
             </circle-load-progress>
         </section>
         
     </main>
 </template>
 <script>
-export default {
+import {defineComponent} from "vue";
+
+export default defineComponent({
     name:"circle",
-    data(){
+    setup(){
         return {
             innerCls:"class0",
             insetCls:"class0",
             outCls:"class0",
         }
     }
-}
+})
 </script>
 <style>
   .class0{

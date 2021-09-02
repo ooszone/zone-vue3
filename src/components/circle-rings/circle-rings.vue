@@ -1,14 +1,18 @@
 <template>
-    <main>
-        <circle-load-progress>
-            <circle-single slot="right"></circle-single>
-        </circle-load-progress>
-    </main>
+	<main>
+		<circle-load-progress>
+			<template v-slot:right>
+				<circle-single ></circle-single>
+			</template>
+		</circle-load-progress>
+	</main>
 </template>
 <script>
-export default {
-    name:"circle-rings",
-}
+import {defineComponent} from "vue";
+
+export default defineComponent({
+	name: "circle-rings",
+})
 </script>
 <style scoped>
 
