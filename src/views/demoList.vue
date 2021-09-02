@@ -5,7 +5,7 @@
 		<ul class="long-list">
 			<li class="active">
 				<i class="iconfont icon-tool-hardware"></i>
-				<a target="_blank" style="color:#fff" href="https://github.com/zonewancheng/zone-vue3">Vue3脚手架Git地址</a>
+				<a target="_blank" style="color:#fff" href="https://github.com/ooszone/zone-vue3">Vue3脚手架Git地址</a>
 			</li>
 			<br/>
 			<li>
