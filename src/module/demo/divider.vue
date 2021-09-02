@@ -1,14 +1,14 @@
 <template>
     <main class="main-divider">
         <label style="margin:10px 10px;display:inline-block">各种样式<b>分割线</b>集合[cmd/ctr+s保存并渲染] (请在支持H5的浏览器下体验)</label><br/>
-        <ace style="margin:0 10px" :language="'html'" :config="dividerHtmlConfig" :value="dividerHtml"></ace>
+        <ace style="margin:0 10px" :language="'html'" :config="dividerHtmlConfig" v-model="dividerHtml"></ace>
         <section v-for="(item,index) in list" class="ace-bth-section" v-bind:key="`${index}-ace-section`">
             <div class="flex1">
                 <ace class="code-container"
                      :id="index"
                      @save="save"
                      :language="item.language.toLowerCase()"
-                     :value="item.content">
+                     v-model="item.content">
                 </ace>
                 <button class="refresh" @click="refresh(item,index)">运行=></button>
             </div>

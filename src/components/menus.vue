@@ -1,7 +1,7 @@
 <template>
 	<nav class="edox-header">
 		{{ title }}
-		<img class="logo" src="../assets/logo0.png"/>
+		<img class="logo" src="../assets/imgs/icon1.png"/>
 		<div style="display: none">
 			<router-link to="/">home</router-link>
 			<router-link to="/edit">edit</router-link>

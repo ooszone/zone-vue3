@@ -1,5 +1,5 @@
 <template>
-	<marquee-c class="notice" :speed="0" v-if="notice&&notice!=0">{{ notice }}</marquee-c>
+	<marquee-c class="notice" :speed="speed" v-if="notice&&notice!=0">{{ notice }}</marquee-c>
 </template>
 
 <script lang="js">
@@ -8,7 +8,7 @@ import {defineComponent} from "vue";
 
 export default defineComponent({
 	components:{marqueeC},
-	props: ['notice'],
+	props: ['notice','speed'],
 })
 </script>
 

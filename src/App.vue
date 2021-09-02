@@ -4,7 +4,7 @@
 			<HeadMenu  :title="title"/>
 		</header>
 		<msg class="flex1">
-			<Notice :notice="notice"></Notice>
+			<Notice :speed="0" :notice="notice"></Notice>
 		</msg>
 		<main class="flex99" style="background:#f9f9f9;overflow-y: auto">
 			<router-view/>

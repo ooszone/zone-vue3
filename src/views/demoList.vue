@@ -7,7 +7,7 @@
 				<i class="iconfont icon-integral1"></i>
 				<router-link to="/demo/icon">图标-Icon</router-link>
 			</li>
-			<li>
+			<li class="disabled">
 				<i class="iconfont">&#xe7d1;</i>
 				<router-link to="/demo/title">标题-Title</router-link>
 			</li>
@@ -23,15 +23,15 @@
 				<i class="iconfont">&#xe790;</i>
 				<router-link to="/demo/circle">加载中-Loading</router-link>
 			</li>
-			<li>
+			<li class="disabled">
 				<i class="iconfont">&#xe7e6;</i>
 				<router-link to="/demo/longList">长列表-List</router-link>
 			</li>
-			<li>
+			<li class="disabled">
 				<i class="iconfont">&#xe7ea;</i>
 				<router-link to="/demo/diff">差异对比-Diff</router-link>
 			</li>
-			<li>
+			<li class="disabled">
 				<i class="iconfont">&#xe8ea;</i>
 				<router-link to="/demo/gitbook">文章-GitBook</router-link>
 			</li>
@@ -93,4 +93,5 @@
 .long-list li:hover .iconfont {
 	color: dodgerblue;
 }
+
 </style>

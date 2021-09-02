@@ -21,7 +21,7 @@ import beautify from 'js-beautify'
 
 export default {
     name: "custom-ace",
-    props:["value","language","config","id"],
+    props:["modelValue","language","config","id"],
     data(){
         return {
             aceEditor:null,
@@ -39,11 +39,11 @@ export default {
     },
     methods:{
         change () {
-            this.$emit('input', this.aceEditor.getSession().getValue())
+            this.$emit('update:modelValue', this.aceEditor.getSession().getValue())
         }
     },
     mounted(){
-         let _value = this.value
+         let _value = this.modelValue
 	    let _language = this.language || "js"
          let content = beautify[_language](_value) || ""
 
