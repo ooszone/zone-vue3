@@ -3,6 +3,11 @@
 		<label style="margin:10px 0px;display:inline-block">各种<b>组件</b><b>Demo</b><b>模块</b>集合
 			(请在支持H5的浏览器下体验)</label><br/>
 		<ul class="long-list">
+			<li class="active">
+				<i class="iconfont icon-tool-hardware"></i>
+				<a target="_blank" style="color:#fff" href="https://github.com/ooszone/zone-vue3">Vue3脚手架Git地址</a>
+			</li>
+			<br/>
 			<li>
 				<i class="iconfont icon-integral1"></i>
 				<router-link to="/demo/icon">图标-Icon</router-link>
@@ -93,5 +98,8 @@
 .long-list li:hover .iconfont {
 	color: dodgerblue;
 }
-
+.active{
+	background: #11c434 !important;
+	color:#fff !important;
+}
 </style>

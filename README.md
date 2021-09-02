@@ -31,3 +31,4 @@
     2.require
     3.slot
     4.import *.vue
+    5.v-html
