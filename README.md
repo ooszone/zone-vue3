@@ -1,6 +1,6 @@
 # zone-vue3
 
-> 个人用vue3脚手架
+> 个人用vue3脚手架 demo示例地址： http://www.xicer.com/#/demo
 
 ### 本地开发
 
