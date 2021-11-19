@@ -32,3 +32,7 @@
     3.slot
     4.import *.vue
     5.v-html
+    6.setup
+    7.全局变量
+    8.watch/router
+    
